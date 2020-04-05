@@ -1,14 +1,11 @@
 import * as React from 'react';
+import ControlPanel from './editor/control-panel';
 import './styles.css';
-import {BaseAbility, AbilityType} from './abilities/models';
-import AbilityButton from './ui/common/ability-button';
 
 export default function App() {
   return (
     <div className="App">
-      <ControlPanel>
-        <NewAbilityBtn />
-      </ControlPanel>
+      <ControlPanel />
     </div>
   );
 }
